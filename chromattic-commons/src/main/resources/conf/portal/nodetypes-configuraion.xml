@@ -1,0 +1,23 @@
+<nodeTypes xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0">
+	<nodeType name="lab:photo" isMixin="false" hasOrderableChildNodes="false">
+		<supertypes>
+			<supertype>nt:file</supertype>
+			<supertype>mix:referenceable</supertype>
+		</supertypes>
+	</nodeType>
+	<nodeType name="lab:gallery" isMixin="false" hasOrderableChildNodes="false">
+		<supertypes>
+			<supertype>nt:base</supertype>
+			<supertype>mix:referenceable</supertype>
+		</supertypes>
+		<propertyDefinitions />
+		<childNodeDefinitions>
+			<childNodeDefinition name="*" defaultPrimaryType="" autoCreated="false" mandatory="false" onParentVersion="COPY" protected="false" sameNameSiblings="false">
+				<requiredPrimaryTypes>
+					<requiredPrimaryType>lab:photo</requiredPrimaryType>
+				</requiredPrimaryTypes>
+			</childNodeDefinition>
+		</childNodeDefinitions>
+	</nodeType>
+</nodeTypes>
