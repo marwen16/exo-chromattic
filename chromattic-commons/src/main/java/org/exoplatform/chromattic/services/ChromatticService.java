@@ -33,8 +33,6 @@ public class ChromatticService {
 	private ChromatticManager chromatticManager;
 	
 	
-	public ChromatticService() {}
-	
 	public ChromatticService(ChromatticManager chromatticManager) {
 		this.chromatticManager = chromatticManager;
 	}

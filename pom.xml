@@ -18,11 +18,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.chromattic.version>1.2.3</org.chromattic.version>
 		<org.exoplatform.ecms.version>2.3.9</org.exoplatform.ecms.version>
-		<org.exoplatform.portal.version>3.4.0.Final</org.exoplatform.portal.version>
+		<org.exoplatform.portal.version>3.1.0-GA</org.exoplatform.portal.version>
 	</properties>
 	
 	<modules>
 		<module>chromattic-commons</module>
     <module>chromattic-upload</module>
+    <module>chromattic-gallary</module>
   </modules>
 </project>
